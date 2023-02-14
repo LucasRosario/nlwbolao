@@ -11,4 +11,8 @@
 
   npx prisma init --datasource-provider SQLite //Iniciar prisma com o banco de dados SQLite
   npx prisma migrate dev // INICIADNDO AS MIGRATIONS controle de banco
-  
+  npm i prisma-erd-generator @mermaid-js/mermaid-cli -D// 
+  npx prisma generate
+
+
+  npm i @fastify/cors // qume pode consumir a app com seguranca
